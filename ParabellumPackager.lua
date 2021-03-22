@@ -1,8 +1,8 @@
 -- Create a new toolbar section titled "Custom Script Tools"
 local toolbar = plugin:CreateToolbar("Parabellum Tools")
 
--- Add a toolbar button named "Create Empty Script"
-local newScriptButton = toolbar:CreateButton("Package Map", "Package map into a Project Parabellum Compatible Map", "rbxassetid://4458901886")
+-- Add a toolbar button named "Package Map"
+local packageMap = toolbar:CreateButton("Package Map", "Package map into a Project Parabellum Compatible Map", "rbxassetid://4458901886")
 
 -- Package everything
 local function onNewScriptButtonClicked()
@@ -45,4 +45,4 @@ local function onNewScriptButtonClicked()
 	map.Parent = workspace
 	print("Successfully packaged map!")
 end
-newScriptButton.Click:Connect(onNewScriptButtonClicked)
+newScriptButton.Click:Connect([packageMap])
