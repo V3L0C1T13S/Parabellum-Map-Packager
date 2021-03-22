@@ -45,4 +45,4 @@ local function onNewScriptButtonClicked()
 	map.Parent = workspace
 	print("Successfully packaged map!")
 end
-newScriptButton.Click:Connect([packageMap])
+newScriptButton.Click:Connect(packageMap)
