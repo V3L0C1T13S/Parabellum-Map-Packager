@@ -1,4 +1,4 @@
--- Create a new toolbar section titled "Custom Script Tools"
+-- Create a new toolbar section titled "Parabellum Tools"
 local toolbar = plugin:CreateToolbar("Parabellum Tools")
 
 -- Add a toolbar button named "Package Map"
