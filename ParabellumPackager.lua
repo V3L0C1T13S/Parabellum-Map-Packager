@@ -20,7 +20,7 @@ local function onNewScriptButtonClicked()
 	-- Time values
 	local timevalue = Instance.new("NumberValue")
 	timevalue.Value = game:GetService("Lighting").ClockTime
-	timevalue.Name = "TOD"
+	timevalue.Name = "tod"
 	timevalue.Parent = map
 	print("Packaged Clocktime")
 
