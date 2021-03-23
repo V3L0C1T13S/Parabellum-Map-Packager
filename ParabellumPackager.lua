@@ -35,12 +35,20 @@ local function onNewScriptButtonClicked()
 		local atmosphere = game:GetService("Lighting"):FindFirstChildWhichIsA("Atmosphere"):Clone() 
 		atmosphere.Parent = map
 		print("Packaged Atmosphere")
+	else
+		warn("Couldn't find an Atmosphere! Creating placeholder")
+		local atmosphere = Instance.new("Atmosphere")
+		atmosphere.Parent = map
 	end
 
 	if game:GetService("Lighting"):FindFirstChildWhichIsA("Sky") then
 		local sky = game:GetService("Lighting"):FindFirstChildWhichIsA("Sky"):Clone() 
 		sky.Parent = map
 		print("Packaged Sky")
+	else
+		warn("Couldn't find a Skybox! Creating placeholder")
+		local sky = Instance.new("Sky")
+		sky.Parent = map
 	end
 
 	map.Name = "Packaged Map"
