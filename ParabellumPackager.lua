@@ -31,13 +31,15 @@ local function onNewScriptButtonClicked()
 	geographiclatitude.Parent = map
 	print("Packaged Geographic Latitude")
 
-	if game:GetService("Lighting"):FindFirstChild("Atmosphere") then
-		game:GetService("Lighting"):FindFirstChild("Atmosphere").Parent = map
+	if game:GetService("Lighting"):FindFirstChildWhichIsA("Atmosphere") then
+		local atmosphere = game:GetService("Lighting"):FindFirstChildWhichIsA("Atmosphere"):Clone() 
+		atmosphere.Parent = map
 		print("Packaged Atmosphere")
 	end
 
-	if game:GetService("Lighting"):FindFirstChild("Sky") then
-		game:GetService("Lighting"):FindFirstChild("Sky").Parent = map
+	if game:GetService("Lighting"):FindFirstChildWhichIsA("Sky") then
+		local sky = game:GetService("Lighting"):FindFirstChildWhichIsA("Sky"):Clone() 
+		sky.Parent = map
 		print("Packaged Sky")
 	end
 
