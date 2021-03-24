@@ -4,9 +4,9 @@ Parabellum map packager is a free, open source Roblox Studio plugin that package
 
 ## Features
 ● Instantly compile your maps into one model
-##
+## 
 ● Package time of day and Geographical Latitude settings into easily accessible and customizable values
-##
+## 
 ● Automatically package the Skybox and Atmosphere of your map.
 
 ## Sounds cool, where can I get it?
