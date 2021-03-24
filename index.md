@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## About
 
-You can use the [editor on GitHub](https://github.com/V3L0C1T13S/Parabellum-Map-Packager/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Parabellum map packager is a free, open source Roblox Studio plugin that packages your maps and lighting settings into one model.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Features
+● Instantly compile your maps into one model
+#
+● Package time of day and Geographical Latitude settings into easily accessible and customizable values
+#
+● Automatically package the Skybox and Atmosphere of your map.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/V3L0C1T13S/Parabellum-Map-Packager/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Sounds cool, where can I get it?
+https://www.roblox.com/library/6549578051/Parabellum-Map-Packager, or alternatively https://github.com/V3L0C1T13S/Parabellum-Map-Packager/releases
