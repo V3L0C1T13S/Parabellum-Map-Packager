@@ -11,8 +11,9 @@ local function onNewScriptButtonClicked()
 
 	-- Get every object in workspace
 	for i,v in pairs(workspace:GetChildren()) do
-		if v.Name ~= "Terrain" and v.Name ~= "Camera" then
-			v.Parent = map
+		if not v:IsA("Terrain") and not v:IsA("Camera") then
+			local obj = v:Clone()
+			obj.Parent = map
 		end
 	end
 	print("Packaged workspace")
